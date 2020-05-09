@@ -41,6 +41,7 @@ echo "<script type='text/javascript'> document.location = '$currentpage'; </scri
                   <input type="email" class="form-control" name="email" placeholder="Email address*">
                 </div>
                 <div class="form-group">
+              
                   <input type="password" class="form-control" name="password" placeholder="Password*">
                 </div>
                 <div class="form-group checkbox">
