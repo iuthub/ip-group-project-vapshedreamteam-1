@@ -1,10 +1,6 @@
 @charset "utf-8";
 
-/*
-Theme Name: CarForYou - Responsive Car Dealer HTML5 Template.
-Author: WMD Team
-Version:1.0
-*/
+
 
 /*===========================
  =  Table of CSS
@@ -842,6 +838,7 @@ table thead th, table thead td {
 .header_widgets {
   display: inline-block;
   width: 260px;
+  margin: 30px 0 0 0;
   text-align:left;
 }
 .header_widgets a {
@@ -1064,11 +1061,13 @@ nav.navbar {
 	3.1. Banner
 -------------------------------*/
 .banner-section {
-  background-image: url("../images/gm_uzbekistan.jpg");
-  background-position: center center;
+  background-image: url("../images/listing-page-header-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 230px;
+  height: 500px;
+  border: 0 none;
+  margin: 0 auto;
+  padding: 0;
   position: relative;
 }
 .banner-section::after {
@@ -1354,25 +1353,46 @@ nav.navbar {
 	3.5. Fun-Facts
 -----------------------------*/
 .fun-facts-section {
-  background: rgba(0, 0, 0, 0) url("../images/fun-facts-bg.jpg") repeat scroll 0 0;
   padding: 100px 0;
   position: relative;
 }
-.fun-facts-m {
+.members2 {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+.members2 img{
   border-radius: 50%;
-  color: #ffffff;
-  display: table;
   height: 188px;
   margin: 0 auto;
-  text-align: center;
   width: 188px;
+  display: flex;
 }
-.fun-facts-m .cell {
-  display: table-cell;
-  vertical-align: middle;
+.members {
+  margin-bottom: 250px;
 }
-.fun-facts-m h2 {
-  color: #ffffff;
+.members img{
+  border-radius: 50%;
+  height: 188px;
+  margin: 0 auto;
+  width: 188px;
+  display: flex;
+}
+.members ul{
+    padding:0; 
+    margin:0;
+    display: flex;
+    list-style: none;
+    justify-content:center;
+}
+.members2 ul{
+    padding:0; 
+    margin:0;
+    display: flex;
+    list-style: none;
+    justify-content:center;
+}
+
+/*.fun-facts-m h2 {
   margin: 0 auto;
 }
 .fun-facts-m p {
@@ -1382,7 +1402,7 @@ nav.navbar {
 }
 .fun-facts-m h2 .fa {
   display: block;
-}
+}*/
 
 
 /*----------------------
@@ -1563,6 +1583,7 @@ nav.navbar {
 -----------------------------*/
 .testimonial-section {
   background-image: url("../images/testimonial-bg.jpg");
+  height: 500px;
 }
 .white-text h2 {
   color: #ffffff;
@@ -2262,6 +2283,7 @@ form .slider.slider-horizontal {
   background-image: url("../images/listing-page-header-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 500px;
   border: 0 none;
   margin: 0 auto;
   padding: 0;
@@ -2278,7 +2300,8 @@ form .slider.slider-horizontal {
 }
 .page-heading h2, .page-heading h1 {
   font-size:40px;
-  color: #ffffff;
+  color: #000;
+  padding-top: 100px;
   margin: 0 auto;
 }
 
@@ -2294,7 +2317,7 @@ form .slider.slider-horizontal {
   z-index: 1;
 }
 .coustom-breadcrumb li {
-  color: #ffffff;
+  color: #111;
   display: inline-block;
   font-size: 16px;
   line-height: 45px;
@@ -2304,14 +2327,14 @@ form .slider.slider-horizontal {
   position:relative;
 }
 .coustom-breadcrumb a {
-  color: #ffffff;
+  color: #111;
 }
 .coustom-breadcrumb li a:hover {
-	color:#fff;
+	color:#1d5fee;
 	text-decoration:underline;
 }
 .coustom-breadcrumb a::after {
-  color: #fff;
+  color: #f5f5f5;
   content: "";
   font-family: fontawesome;
   position: absolute;
@@ -2328,9 +2351,7 @@ form .slider.slider-horizontal {
   padding: 80px 0;
 }
 .result-sorting-wrapper {
-  background: #f5f5f5 none repeat scroll 0 0;
-  border-bottom: 3px solid #e5e5e5;
-  border-left: 4px solid #cecece;
+  
   margin-bottom: 40px;
   overflow: hidden;
   padding: 10px 20px;
@@ -4669,6 +4690,7 @@ h3 {
 	height:100%;
 }
 .banner-section {
+  height: 
   padding: 80px 0;
 }
 .banner_content {
@@ -4960,7 +4982,7 @@ h3 {
 }
 .header_widgets {
   width: auto;
-  margin:0 5px 0 0;
+  margin: 0 5px 0 0;
 }
 .login_btn {
 	margin:2px;
