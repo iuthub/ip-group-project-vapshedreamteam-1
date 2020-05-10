@@ -1,2 +1,3 @@
-# ip-group-project-vapshedreamteam-1
-ip-group-project-vapshedreamteam-1 created by GitHub Classroom
+Ip team: VapsheDreamTeam
+Project: iutrental.uz
+Service for providing car for the rent in Tashkent.
