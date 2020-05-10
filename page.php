@@ -80,12 +80,22 @@ include('includes/config.php');
       <section class="fun-facts-section">
         <div class="members">
           <ul>
-            <li><img src="assets/images/nurulloh.jpg" alt=""></li>
-            <li><img src="assets/images/olim.jpg" alt=""></li>
-            <li><img src="assets/images/sher.jpg" alt=""></li>
-            <li><img src="assets/images/sardor.jpg" alt=""></li>
-            <li><img src="assets/images/abbos.jpg" alt=""></li>
-            <li><img src="assets/images/uktam.jpg" alt=""></li>
+            <li><img src="assets/images/nurulloh.jpg" alt="CEO">
+            	<h2>Nurullokh<br>Makhmudov</h2><i><p>CEO of "Vapshe Dream Team"</p></i></li>
+            <li><img src="assets/images/olim.jpg" alt="Progect manager">
+            	<h2>Olimjon<br>Khaitboev</h2><i><p>Progect manager</p></i></li>
+            <li><img src="assets/images/sher.jpg" alt="Sales manager">
+            	<h2>Sherzod<br>Rasulov</h2><i><p>Sales manger</p></i></li>
+            </ul>
+          </div>
+        <div class="members">
+          <ul>  
+            <li><img src="assets/images/sardor.jpg" alt="IT department manager">
+            	<h2>Sardor<br>Shavkatbekov</h2><i><p>IT department manager</p></i></li>
+            <li><img src="assets/images/abbos.jpg" alt="Marketolog">
+            	<h2>Abbos<br>Alimukhamedov</h2><i><p>Marketer</p></i></li>
+            <li><img src="assets/images/uktam.jpg" alt="Engineer">
+            	<h2>Uktam<br>Rashidov</h2><i><p>Engineer</p></i></li>
           </ul>
         </div>
       </section>
